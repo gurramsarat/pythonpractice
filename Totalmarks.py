@@ -1,0 +1,5 @@
+project=int(input("Enter the project marks"))
+internal=int(input("Enter the internal marks"))
+external=int(input("Enter the external marks"))
+total_marks =((70/100)*project+(10/100)*internal+(20/100)*external)
+print("total marks :",total_marks)
